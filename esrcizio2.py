@@ -11,12 +11,10 @@ s1 = pi * (r1 **2)
 s2 = pi * (r2 **2)
 s3 = pi * (r3 **2)
 s2m4 = s2 * 4
+
 V = (1 / 6) * h  * (s1 + s2m4 + s3)
 Vl = ( V / 1000 )
 print("VolumeInLitri: " +str (Vl))  #in litri
-
-
-
 
 r1s = r1**2
 r2s = r2**2
